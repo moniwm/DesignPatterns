@@ -45,5 +45,8 @@ int main(){
     std::cout << "Trying to duplicate Costa Rica instance...\n";
     Country *country = Country::getInstance("Costa Rica");
 
+    delete costaRica;
+    delete  country;
+
     return 0;
 }
