@@ -9,7 +9,7 @@
 
 class VirtualAssistant{
 public:
-    virtual ~VirtualAssistant()= default;;
+    virtual ~VirtualAssistant()= default;
     virtual std::string sayHello() const = 0;
 };
 
@@ -29,7 +29,7 @@ public:
 
 class Phone{
 public:
-    virtual ~Phone()= default;;
+    virtual ~Phone()= default;
     virtual std::string makePhoneCalls() const = 0;
 };
 
